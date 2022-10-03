@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(240, 248, 255);
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(115, 29, 196);
+    cursor: pointer;
+}
+
+.modal {
+    background-color: rgb(236, 255, 255);
+    width: 20rem;
+    height: 15rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: none;
+    border-radius: 5px;
+}

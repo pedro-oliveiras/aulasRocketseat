@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+.content {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    height: 10vh;
+    padding: 2vh;
+}
+
+button {
+    width: 20vh;
+    background-color: rgb(83, 43, 226);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+}
+
+button:hover{
+    background-color: rgb(68, 33, 196);
+    cursor: pointer;
+}
+
+button img {
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 0;
+}
+
+/*button:nth-child(1)::before{
+    content: "P ";
+}
+
+button:nth-child(2)::after{
+    content: " M";
+    img
+}*/
