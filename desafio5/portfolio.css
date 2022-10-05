@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #837E9F;
+    list-style: none;
+}
+
+body {
+    background-color: #201f25;
+}
+
+main {
+    display: flex;
+    padding: 2rem 5rem;
+    gap: 5rem;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.projects {
+    display: flex;
+    gap: 1rem;
+}
+
+.projects div:nth-child(1) {
+    flex: 1;
+}
+
+.projects div:nth-child(2) {
+    flex: 1;
+}
+
+.sidebar-nav {
+    flex: .6;
+}
+
+.main-content {
+    flex: 2;
+}
+
+.card {
+    background-color: #302F3D;
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    box-shadow: 5px 5px 10px #14141498;
+}
+
+.short-word {
+    font-size: 12px;
+}
+
+/*end of main config*/
+
+/*init profile card*/
+#profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #00FF00;
+    padding: 2px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.profile h3 {
+    margin-top: 20px;
+}
+
+/*end profile card*/
+
+/*init about card*/
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 14px;
+}
+
+.about img {
+    margin-right: 1rem;
+    stroke: #837E9F;
+    height: 16px;
+}
+
+.about li {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+/*init about card*/
+
+/*init my-projects*/
+
+.my-projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-tittle {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-info {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.project-rating, .project-language {
+    display: flex;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.score img {
+    height: 16px;
+}
+
+.language {
+    text-align: right;
+}
+
+.ball {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #00FF00;
+    margin-right: 10px;
+}
+/*end my-projects*/
+
+/*init posts*/
+.post-picture {
+    height: 120px;
+    width: 120px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+.post-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.post-year {
+    margin-top: .5rem;
+}
+
+.post-resume {
+    margin-top: 1.5rem;
+}
+
+.post-tags {
+    margin-top: .5rem;
+}
