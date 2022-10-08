@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./sidebar.css">
+
+    <title>Sidebar</title>    
+</head>
+<body>
+    
+    <main>
+        <nav>
+            <div class="nav-content">                
+                <button class="nav-toggle active" id="button">
+                    <img class="item-toggle" src="./images/logo.svg" alt="">
+                    <img src="./images/menu.svg" alt="">
+                </button>
+                <button class="nav-item-active" onclick="changeScreen('search')" id="search">
+                    <img src="./images/search.svg" alt="">
+                    <p class="item-toggle">Buscar</p>
+                </button>
+                <button onclick="changeScreen('dashboard')" id="dashboard">
+                    <img src="./images/grid.svg" alt="">
+                    <p class="item-toggle">Dashboard</p>
+                </button>
+                <button onclick="changeScreen('pets')" id="pets">
+                    <img src="./images/pet.svg" alt="">
+                    <p class="item-toggle">Pets</p>
+                </button>
+                <button onclick="changeScreen('clients')" id="clients">
+                    <img src="./images/user.svg" alt="">
+                    <p class="item-toggle">Clientes</p>
+                </button>
+                <button onclick="changeScreen('vets')" id="vets">
+                    <img src="./images/vet.svg" alt="">
+                    <p class="item-toggle">Vets</p>
+                </button>
+                <button onclick="changeScreen('settings')" id="settings">
+                    <img src="./images/settings.svg" alt="">
+                    <p class="item-toggle">Ajustes</p>
+                </button>
+            </div>
+            <div class="nav-content nav-item-active">
+                <button class="nav-toggle nav-item-active">
+                    <img class="user-photo item-toggle" src="./images/photo.jpg" alt="">
+                    <div class="user-info item-toggle">
+                        <p>Eleanor Pena</p>
+                        <p class="user-function">Veterinaria</p>
+                    </div>
+                    <img src="./images/log-out.svg" alt="">
+                </button>
+            </div>
+        </nav>
+        <div class="content">
+            <h1 id="page-name">Buscar</h1>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, consectetur ducimus laudantium quis error harum, ipsa repellendus dolorum tempora autem aspernatur veniam inventore. Eos omnis quia impedit architecto nulla iusto!</p>
+        </div>
+    </main>
+
+    <script src="./sidebar.js"></script>
+</body>
+</html>
