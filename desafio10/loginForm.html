@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./loginForm.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+    <title>Login Form</title>
+</head>
+<body>
+
+    <div class="logo">
+        <img src="./images/logo.svg" alt="">
+    </div>
+
+    <main>        
+        <div class="content">
+            <div class="content-header">
+                <img src="./images/log-in.svg" alt="">
+                <h1 class="content-tittle">Faça seu login</h1>
+            </div>            
+            <p>Entre com suas informações de cadastro.</p>
+
+            <form action="https://www.google.com">
+                <label for="email">E-mail</label>
+                <div class="email-field">
+                    <input class="field" type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                    <div class="email"></div>
+                </div>                
+
+                <label for="password">Senha</label>
+                <div class="password-field">
+                    <input class="field" type="password" id="password" name="password" placeholder="Digite sua senha">
+                    <div class="password"></div>
+                    <button class="eye" type="button"><img src="./images/eye.svg" alt=""></button>
+                </div>                
+
+                <div class="section-remember">
+                    <div class="remember">
+                        <input type="checkbox" id="check" name="remember">
+                        <label for="check">Lembre-me</label>
+                    </div>                    
+
+                    <a href="">Esqueci minha senha</a>
+                </div>                
+
+                <button class="button-form" type="submit">ENTRAR</button>
+                
+                <div class="bottom-msg">
+                    <p>Não tem uma conta?</p><a href="">Registre-se</a>
+                </div>
+                
+            </form>
+        </div>
+    </main>
+
+    <script src="./loginForms.js"></script>
+    
+</body>
+</html>
